@@ -1,6 +1,10 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    color: darkblue;
+    background: url('Images/structure-light-led-movement-158826.jpeg');
+    align-content:center;
+
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +25,54 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+div.navbar {
+    color: white;
+    background-color: #31708f!important;
+    border-color: #080808;
+}
+
+.container {
+}
+
+.jumbotron {
+    background-color: maroon!important;
+    align-content: center;
+    opacity: .8;
+}
+
+div.well-lg {
+    background-color: black;
+    color: white;
+    opacity: .5;
+    border-width: 10px!important;
+}
+
+div.thumbnail {
+    background: radial-gradient(lightpink, white);
+    border-bottom-color: lime;
+    border-right-color: deeppink;
+    border-left-color: aqua;
+    border-top-color: purple;
+    border-width: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+div.navbar {
+    background: linear-gradient(red, darkred);
+    border-color: aquamarine;
+    color: greenyellow;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #790ade;
+}
+
+a {
+    color: crimson;
 }
