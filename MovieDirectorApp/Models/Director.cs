@@ -9,7 +9,7 @@ namespace MovieDirectorApp.Models
     public class Director
     {
         [Key]
-        public int DirectorId { get; set; }
+        public int DirectorID { get; set; }
 
         public string Name { get; set; }
 

@@ -10,7 +10,7 @@ namespace MovieDirectorApp.Models
     public class Movie
     {
         [Key]
-        public int MovieId { get; set; }
+        public int MovieID { get; set; }
 
         public string Title { get; set; }
         
@@ -33,7 +33,7 @@ namespace MovieDirectorApp.Models
         public virtual Director Director { get; set; }
 
         [ForeignKey("Genre"), Display(Name ="Genre")]
-        public string GenreID { get; set; }
+        public int GenreID { get; set; }
         public virtual Genre Genre { get; set; }
     }
 }
