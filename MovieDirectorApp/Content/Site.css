@@ -28,7 +28,7 @@ textarea {
 }
 
 div.navbar {
-    color: white;
+    
     background-color: #31708f!important;
     border-color: #080808;
 }
@@ -38,8 +38,13 @@ div.navbar {
 
 .jumbotron {
     background-color: maroon!important;
-    align-content: center;
     opacity: .8;
+
+}
+
+div.jumbotron {
+    text-align: center;
+    border-color: aqua !important;
 }
 
 div.well-lg {
@@ -47,6 +52,29 @@ div.well-lg {
     color: white;
     opacity: .5;
     border-width: 10px!important;
+}
+
+p.lead{
+    font-family:'Curlz MT';
+    font-weight:bold;
+
+}
+
+h1{
+    color: deeppink!important;
+    font-family: cursive;
+
+}
+
+h2{
+    font-family:Playbill;
+    color: darkcyan;
+}
+
+p{
+    font-family: Chiller;
+    font-size: xx-large;
+
 }
 
 div.thumbnail {
@@ -58,14 +86,13 @@ div.thumbnail {
     border-width: 10px;
 }
 
-h2 {
-    color: white;
-}
+
 
 div.navbar {
     background: linear-gradient(red, darkred);
     border-color: aquamarine;
     color: greenyellow;
+    font-family:Garamond;
 }
 
 
@@ -74,5 +101,41 @@ div.navbar {
 }
 
 a {
-    color: crimson;
+    color: greenyellow;
+    font-size:x-large;
+    font-family:Gigi;
+        
+}
+
+h1{
+    align-items: center;
+}
+
+.navbar-inverse .navbar-brand {
+    color: chartreuse;
+    font-size: x-large;
+    font-family: 'Brush Script MT';
+}
+
+.btn{
+    font-family:'Comic Sans MS';
+    font-size: large;
+    background:radial-gradient(purple, white)
+}
+
+td{
+    color:olivedrab ;
+    font-size: xx-large;
+    font-family:Haettenschweiler;
+}
+
+h4{
+    color: white;
+    font-style: oblique;
+}
+
+dd,
+dt{
+    font-size: x-large;
+    font-family:'Edwardian Script ITC';
 }
