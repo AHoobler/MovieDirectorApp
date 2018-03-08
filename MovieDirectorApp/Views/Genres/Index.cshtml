@@ -10,19 +10,20 @@
     @Html.ActionLink("Create New", "Create")
 </p>
 
+<div class="well-lg">
+    @foreach (var item in Model)
+    {
+        <div class="row">
 
-@foreach (var item in Model) {
-    <div class="row">
-        <div class="well-lg">
             @Html.DisplayFor(modelItem => item.Type)
 
-            @Html.ActionLink("Edit", "Edit", new { id=item.GenreID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.GenreID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.GenreID })<br />
+            @Html.ActionLink("Edit", "Edit", new { id = item.GenreID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.GenreID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.GenreID })
 
-            
+
+
         </div>
-    </div>
-}
+    }
 
-
+</div>
